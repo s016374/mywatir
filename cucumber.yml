@@ -1,0 +1,4 @@
+default: -p dm_trunk
+dm_trunk: -t @dm_trunk --format pretty --format json --out=reports/report.json
+dm_bond: -t @dm_bond
+dm_login: -t @dm_login
